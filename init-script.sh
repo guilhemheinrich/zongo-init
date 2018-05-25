@@ -1,4 +1,5 @@
 #! /bin/bash
+DIR="`dirname \"$0\"`"
 
-sh init-scripts/setup-bashrc.sh
-sh init-scripts/setup-smtp.sh
+sh $DIR/init-scripts/setup-bashrc.sh
+sh $DIR/init-scripts/setup-smtp.sh
